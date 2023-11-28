@@ -1,0 +1,7 @@
+multipass list //stop start
+sudo multipass shell ubu
+
+multipass get local.ubu.cpus
+multipass get local.ubu.disk
+
+multipass set local.ubu.cpus=4 (memory)
