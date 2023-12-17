@@ -1,0 +1,4 @@
+ssh-keygen -b 4096 -f my_key
+#copu the pub key to .ssh/auth*key file
+# try ssh 
+ssh -i <pem> user@<IP>
